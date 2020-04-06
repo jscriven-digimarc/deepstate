@@ -42,6 +42,7 @@ setuptools.setup(
             'deepstate-manticore = deepstate.executors.symex.manticore:main',
 
             'deepstate-afl = deepstate.executors.fuzz.afl:main',
+            'deepstate-afl-ensemble = deepstate.executors.fuzz.afl-ensemble:main',
             'deepstate-libfuzzer = deepstate.executors.fuzz.libfuzzer:main',
             'deepstate-eclipser = deepstate.executors.fuzz.eclipser:main',
             'deepstate-angora = deepstate.executors.fuzz.angora:main',
